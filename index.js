@@ -1,8 +1,9 @@
 let recipes = { italian: "pasta"}
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
-  const = recipes[key] = value
-  return recipes
+  const n = recipes
+  n[key] = value
+  return n
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
