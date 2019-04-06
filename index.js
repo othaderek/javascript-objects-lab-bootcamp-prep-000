@@ -2,7 +2,7 @@ let recipes = { italian: "pasta"}
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
   recipes[key] = value
-  recipes
+  return recipes
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value) {
