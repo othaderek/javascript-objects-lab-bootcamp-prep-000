@@ -1,7 +1,7 @@
 let recipes = { italian: "pasta"}
 
 function updateObjectWithKeyAndValue(recipes, key, value) {
-  const recipes[key] = value
+  const = recipes[key] = value
   return recipes
 }
 
